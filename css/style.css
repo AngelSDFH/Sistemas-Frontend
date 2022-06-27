@@ -2,26 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-
-.amarillo{
-    background-color: #facc15;
-}
-.morado-indigo{
-    background-color: #312e81;
-}
-.azul-cielo{
-    background-color: #2563eb;
-}
-.azul-medio{
-    background-color: #1d4ed8;
-}
-.azul-oscuro{
-    background-color: #1e40af;
-}
-.gris-zinc{
-   background-color:#d4d4d8;
-}
-.negro-zinc{
-    background-color: #18181b;
-}
-#holaaaa

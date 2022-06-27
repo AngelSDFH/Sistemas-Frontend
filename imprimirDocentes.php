@@ -23,11 +23,11 @@
         //Docentes
                 $tabla .= "<div class='grid grid-cols-1 justify-items-center rounded-md shadow-lg bg-zinc-300'>";
                     $tabla .= "<div class='flex flex-row justify-center '>
-                                    <img class= 'rounded-full p-1 bg-blue-400 object-center mt-4' src='img/hector_trujillo.jpg' alt='' style='width: 10rem; height: 10rem;'>
+                                    <img class= 'rounded-full p-1 azul-medio object-center mt-4' src='img/hector_trujillo.jpg' alt='' style='width: 10rem; height: 10rem;'>
                                 </div>";
                     $tabla .= "<h1 class='text-black self-start rounded-md text-center w-full font-semibold py-3'>$nombre_maestro</h1>";
                     $tabla .= "<div class='flex justify-center items-center'>";
-                         $tabla .= "<a class='my-4 p-3 w-24 self-center font-semibold rounded-md bg-blue-600 text-white hover:bg-indigo-900'
+                         $tabla .= "<a class='my-4 p-3 w-24 self-center font-semibold rounded-md amarillo text-black hover:bg-indigo-900'
                                     data-bs-toggle='modal' data-bs-target='#modalDocente" .$id_maestro ."'aria-label='Close'>Ver más</a>";
                     $tabla .= "</div>";
                 $tabla .= "</div>";
@@ -46,8 +46,8 @@
                             $tabla .= "</div>";
                             //contenido
                             $tabla .= "<div class='modal-body relative grid grid-rows-6 grid-col-3'>";                              
-                                    $tabla .= "<div class='row-span-1 col-span-1 justify-center'>
-                                                <img class= 'rounded-full p-1 bg-blue-400 object-center mt-4' src='img/hector_trujillo.jpg' alt='' style='width: 10rem; height: 10rem;'>
+                                    $tabla .= "<div class='flex flex-row justify-center'>
+                                                <img class= 'azul-medio rounded-full p-1 object-center mt-4' src='img/hector_trujillo.jpg' alt='' style='width: 10rem; height: 10rem;'>
                                                </div>";
                                     $tabla .= "<div class='row-span-1 col-span-1 bg-yellow-400'>
                                                     <h1 class='text-black self-start rounded-md text-2xl text-center w-full font-semibold py-3'>$nombre_maestro</h1>
